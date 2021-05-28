@@ -1,15 +1,20 @@
 <template>
-  <div id="app"></div>
+    <div id="app"></div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+  },
+  props: {
+  },
+  data() {
+    return { }
+  },
+  methods: {
+  }
 }
 </script>
 
-<style lang="scss">
-#app {
-  /**/
-}
-</style>
+<style lang="scss" scoped></style>
